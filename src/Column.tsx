@@ -15,6 +15,7 @@ export const Column = ({ text }: ColumnProps) => {
       <Card text="Third" />
       <AddNewItem
         toggleButtonText="+ Add another card"
+        dark
         onAdd={() => console.log('new Item')}
       />
     </ColumnContainer>
